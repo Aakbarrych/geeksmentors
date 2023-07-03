@@ -4,8 +4,8 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import kg.geeks.geeksmentor.data.model.LoginResponse
-import kg.geeks.geeksmentor.repository.LoginRepository
+import kg.geeks.geeksmentor.presentation.data.model.LoginResponse
+import kg.geeks.geeksmentor.presentation.repository.LoginRepository
 import kotlinx.coroutines.launch
 
 class LoginViewModel(private val repository: LoginRepository) : ViewModel() {

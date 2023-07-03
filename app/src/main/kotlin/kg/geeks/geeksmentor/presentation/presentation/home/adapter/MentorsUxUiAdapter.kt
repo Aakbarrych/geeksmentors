@@ -5,8 +5,8 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import kg.geeks.geeksmentor.data.model.Mentors
 import kg.geeks.geeksmentor.databinding.List2ItemBinding
+import kg.geeks.geeksmentor.presentation.data.model.Mentors
 
 class MentorsUxUiAdapter(private val mentorUxUiList: List<Mentors>) : RecyclerView.Adapter<MentorsUxUiAdapter.MentorsUxUiViewHolder>(){
 
