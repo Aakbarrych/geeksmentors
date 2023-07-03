@@ -1,0 +1,178 @@
+<resources>
+    <string name="app_name">Geeks Mentor</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_on_board">OnBoardActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+
+    <string name="bad_con">Плохое соединение</string>
+    <string name="try_reconnect">Попробуйте переподключиться или перейти на мобильный интернет</string>
+    <string name="exit">Выйти</string>
+    <string name="try_again">Повторить</string>
+
+
+    <string name="onboard_1">Найди ментора мечты или стань им</string>
+    <string name="onboard_2">Только лучшие ментора</string>
+    <string name="continue_btn">Далее</string>
+    <string name="todo">TODO</string>
+
+
+    //Added new strings
+    <string name="enter">Войдите</string>
+    <string name="login">Логин</string>
+    <string name="forgot_your_password">Забыли пароль?</string>
+    <string name="password">Пароль</string>
+    <string name="enter2">Войти</string>
+    <string name="enter_using_google">Войти с помощью Google</string>
+    <string name="enter_using_facebook">Войти с помощью Facebook</string>
+    <string name="or">или</string>
+    <string name="underlined_enter"><u>Войдите</u></string>
+    <string name="no_account_register_it">Нет аккаунта? Зарегистрируйтесь</string>
+    <string name="registration">Зарегистрироваться</string>
+    <string name="confirm_password">Повторите пароль</string>
+    <string name="recover_email">Восстановление пароля</string>
+    <string name="confirm">Подтвердить</string>
+    <string name="send_code_after">Отправить код заново через</string>
+    <string name="code_sent_on_email">Введите код отправленный на почту</string>
+    <string name="email_example">example@gmail.com</string>
+    <string name="email">Эл.почта</string>
+    <string name="find_mentor_board1">Найди ментора мечты или стань им</string>
+    <string name="continue_board1">Далее</string>
+    <string name="only_best_mentors">Только лучшие ментора</string>
+    <string name="skip">Пропустить</string>
+    <string name="title_profile">Profile</string>
+    <string name="fio">ФИО</string>
+    <string name="have_account_enter">Уже есть аккаунт? Войдите</string>
+    <string name="my_data">Мои данные</string>
+    <string name="language">Язык</string>
+    <string name="notification">Уведомления</string>
+    <string name="edit_profile">Редактировать профиль</string>
+    <string name="ux_ui_">UX-UI Дизайнер</string>
+    <string name="okay_i_pull_up">Okay I pull up</string>
+    <string name="password_reset_success">Письмо для сброса пароля отправлено на вашу почту</string>
+    <string name="password_reset_failure">Ошибка при отправке письма для сброса пароля: %s</string>
+    <string name="registration2">Регистрация</string>
+    <string name="create_new_password">Придумайте новый пароль</string>
+    <string name="new_password">Новый пароль</string>
+    <string name="repeat_new_password">Повторите новый пароль</string>
+    <string name="good_day">Добрый день!</string>
+    <string name="searching_mentors">Поиск менторов</string>
+    <string name="ux_ui">UX-UI Дизайн</string>
+    <string name="frontend">Frontend</string>
+    <string name="backend">Backend</string>
+    <string name="android">Android</string>
+    <string name="technical_mentors">Тех.менторы</string>
+    <string name="admins">Админы</string>
+    <string name="mentors_of_month">🏆 Менторы месяца</string>
+    <string name="all_mentors">Все менторы</string>
+    <string name="sultan_ergeshov">Султан Эргешов</string>
+    <string name="ux_ui_mentors">Менторы по UX-UI Дизайну</string>
+    <string name="back">Назад</string>
+    <string name="english">English</string>
+    <string name="kyrgyz">Кыргызча</string>
+    <string name="russian">Русский</string>
+    <string name="save">Сохранить</string>
+    <string name="second_name">Фамилия</string>
+    <string name="name">Имя</string>
+    <string name="sex">Пол</string>
+    <string name="phone_number">Номер телефона</string>
+    <string name="go_to_telegram">Перейти в Telegram</string>
+    <string name="ratings_and_reviews_tv">Оценки и отзывы</string>
+    <string name="rating_mentor">Оцените ментора</string>
+    <string name="sul">Султан Эргешов</string>
+    <string name="names">ФИО</string>
+    <string name="majority">Направление</string>
+    <string name="about_yourself">О себе</string>
+    <string name="skills">Навыки и умения</string>
+    <string name="add">Добавить...</string>
+    <string name="busyness">Занятость</string>
+    <string name="weekdays">По будням</string>
+    <string name="from">от</string>
+    <string name="to">до</string>
+    <string name="weekends">По выходным</string>
+    <string name="contacts">Контакты</string>
+    <string name="example_gmail_com">example@gmail.com</string>
+    <string name="change_mail">Сменить почту</string>
+    <string name="change_password">Сменить пароль</string>
+    <string name="become_mentor">Стать ментором</string>
+    <string name="to_become_mentor">Чтобы стать ментором заполните</string>
+    <string name="month">Месяц</string>
+    <string name="group">Группа</string>
+    <string name="group_num">Номер группы</string>
+    <string name="personal_data">Личные данные</string>
+    <string name="tell_about_yourself">Расскажите о себе</string>
+    <string name="send">Отправить</string>
+    <string name="example">example</string>
+    <string name="password_is_not_the_same">Пароли не совпадают</string>
+
+    <string-array name="month_count">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+
+    <string-array name="major_count">
+        <item>Android</item>
+        <item>Frontend</item>
+        <item>Backend</item>
+        <item>UX-UI designer</item>
+        <item>IOS developer</item>
+    </string-array>
+
+    <string name="android_mentors">Менторы по Android</string>
+    <string name="frontend_mentors">Менторы по Frontend</string>
+    <string name="backend_mentors">Менторы по Backend</string>
+    <string name="mentors_frontend">Менторы фронтенда</string>
+    <string name="mentors_ux_ui">Менторы UX-UI</string>
+    <string name="doesnt_matter">Меня зовут Султан, мне 21 годик. Всегда хотел потыкать компуктер и всё такое. Уже 5 месяцев тыкаю компуктер и рисую квадратики, иногда большие а иногда маленькие. Редко но иногда рисую элипсы. Люблю помогать другим людям тыкать в компуктер</string>
+
+
+</resources>
