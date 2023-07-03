@@ -11,14 +11,14 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import kg.geeks.geeksmentor.R
-import kg.geeks.geeksmentor.data.model.Mentors
 import kg.geeks.geeksmentor.databinding.FragmentHomeBinding
-import kg.geeks.geeksmentor.utils.NetworkChangeListener
-import kg.geeks.geeksmentor.presentation.home.adapter.MentorsAndroidAdapter
-import kg.geeks.geeksmentor.presentation.home.adapter.MentorsBackendAdapter
-import kg.geeks.geeksmentor.presentation.home.adapter.MentorsFrontendAdapter
-import kg.geeks.geeksmentor.presentation.home.adapter.MentorsMonthAdapter
-import kg.geeks.geeksmentor.presentation.home.adapter.MentorsUxUiAdapter
+import kg.geeks.geeksmentor.presentation.data.model.Mentors
+import kg.geeks.geeksmentor.presentation.presentation.home.adapter.MentorsAndroidAdapter
+import kg.geeks.geeksmentor.presentation.presentation.home.adapter.MentorsBackendAdapter
+import kg.geeks.geeksmentor.presentation.presentation.home.adapter.MentorsFrontendAdapter
+import kg.geeks.geeksmentor.presentation.presentation.home.adapter.MentorsMonthAdapter
+import kg.geeks.geeksmentor.presentation.presentation.home.adapter.MentorsUxUiAdapter
+import kg.geeks.geeksmentor.presentation.utils.NetworkChangeListener
 
 @Suppress("DEPRECATION")
 class HomeFragment : Fragment() {

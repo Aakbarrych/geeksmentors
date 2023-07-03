@@ -2,7 +2,7 @@ package kg.geeks.geeksmentor.presentation.data.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import kg.geeks.geeksmentor.repository.LoginRepository
+import kg.geeks.geeksmentor.presentation.repository.LoginRepository
 
 class LoginViewModelFactory(private val repository: LoginRepository) : ViewModelProvider.Factory {
     override fun <T : ViewModel> create(modelClass: Class<T>): T {

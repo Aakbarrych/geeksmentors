@@ -5,8 +5,8 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import kg.geeks.geeksmentor.data.model.Mentors
 import kg.geeks.geeksmentor.databinding.List1ItemBinding
+import kg.geeks.geeksmentor.presentation.data.model.Mentors
 
 class MentorsMonthAdapter(private val mentorList: List<Mentors>) : RecyclerView.Adapter<MentorsMonthAdapter.MentorsViewHolder>(){
 

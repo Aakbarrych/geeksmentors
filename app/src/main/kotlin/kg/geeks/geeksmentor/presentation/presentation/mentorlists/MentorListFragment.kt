@@ -8,10 +8,10 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
-import kg.geeks.geeksmentor.data.model.MentorList
-import kg.geeks.geeksmentor.data.remote.retrofit.ApiService
 import kg.geeks.geeksmentor.databinding.FragmentMentorListBinding
-import kg.geeks.geeksmentor.presentation.mentorlists.adapter.MentorListAdapter
+import kg.geeks.geeksmentor.presentation.data.model.MentorList
+import kg.geeks.geeksmentor.presentation.data.remote.retrofit.ApiService
+import kg.geeks.geeksmentor.presentation.presentation.mentorlists.adapter.MentorListAdapter
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

@@ -5,8 +5,8 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import kg.geeks.geeksmentor.data.model.MentorList
 import kg.geeks.geeksmentor.databinding.MentorsListItemBinding
+import kg.geeks.geeksmentor.presentation.data.model.MentorList
 
 class MentorListAdapter : ListAdapter<MentorList, MentorListAdapter.MentorListViewHolder>(Comparator()) {
 
