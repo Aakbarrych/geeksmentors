@@ -39,6 +39,10 @@ class LogInFragment : Fragment() {
             findNavController().navigate(R.id.signInFragment)
         }
 
+        binding.arrowSignup.setOnClickListener {
+            findNavController().popBackStack()
+        }
+
         binding.btnRegistrationSignup.setOnClickListener {
             val email = binding.etEmailSignup.text.toString()
             val password = binding.etPasswordSignup.text.toString()

@@ -28,6 +28,14 @@ class SignInFragment : Fragment() {
             findNavController().navigate(R.id.logInFragment)
         }
 
+        binding.forgetPassword.setOnClickListener {
+            findNavController().navigate(R.id.passwordForgetFragment)
+        }
+
+        binding.arrowMain.setOnClickListener {
+            findNavController().popBackStack()
+        }
+
         binding.btnEnterMain.setOnClickListener {
             val email = binding.etLoginMain.text.toString()
             val password = binding.etPasswordMain.text.toString()

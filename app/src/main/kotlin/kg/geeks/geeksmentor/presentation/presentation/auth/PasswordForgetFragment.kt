@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import com.google.firebase.auth.FirebaseAuth
 import kg.geeks.geeksmentor.R
 import kg.geeks.geeksmentor.databinding.FragmentPasswordForgetBinding
@@ -20,6 +21,10 @@ class PasswordForgetFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         binding = FragmentPasswordForgetBinding.inflate(inflater, container, false)
+
+        binding.arrowEmail.setOnClickListener {
+            findNavController().popBackStack()
+        }
 
         binding.btnConfirmEmailVerification.setOnClickListener {
             val email = binding.etEmailEmailVerification.text.toString().trim()
@@ -43,6 +48,7 @@ class PasswordForgetFragment : Fragment() {
                         context.getString(R.string.password_reset_success),
                         Toast.LENGTH_SHORT
                     ).show()
+                    findNavController().navigate(R.id.passwordForgetFragment2)
                 } else {
                     val message = task.exception?.message
                     Toast.makeText(

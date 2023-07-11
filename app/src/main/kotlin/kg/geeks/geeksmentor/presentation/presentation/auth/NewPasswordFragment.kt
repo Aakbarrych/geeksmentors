@@ -28,6 +28,13 @@ class NewPasswordFragment : Fragment() {
         return binding.root
     }
 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        binding.arrow.setOnClickListener {
+            findNavController().popBackStack()
+        }
+    }
+
     private fun setupViews() {
         binding.btnConfirm.setOnClickListener {
             val newPassword = binding.etNewPassword.text.toString()
